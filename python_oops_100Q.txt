@@ -1,0 +1,140 @@
+Got it — I’ll create **100 medium-level Python OOP programming questions** that focus on practical class design, method usage, inheritance, polymorphism, abstraction, encapsulation, operator overloading, property decorators, and more.
+I’ll group them into categories so they’re easier to navigate.
+
+---
+
+## **Python OOP – 100 Medium-Level Questions**
+
+### **A. Class & Object Fundamentals (Q1–Q15)**
+
+1. Create a class `BankAccount` with methods to deposit, withdraw, and check balance. Prevent withdrawals if balance is insufficient.
+2. Write a class `Rectangle` that calculates area and perimeter. Add a method to compare two rectangles by area.
+3. Implement a class `Temperature` that stores temperature in Celsius and converts to Fahrenheit.
+4. Create a class `Laptop` that stores brand, model, and price. Add a method to apply a discount percentage.
+5. Write a class `Student` that accepts marks for 3 subjects and calculates the average and grade.
+6. Implement a class `Circle` with a radius attribute and methods to calculate area and circumference.
+7. Create a class `Book` with title, author, and price attributes. Add a method to display book info.
+8. Write a class `Movie` that keeps track of the number of movies created using a class variable.
+9. Implement a class `Employee` with methods to set and get salary, ensuring salary can’t be negative.
+10. Create a class `Person` with methods to update name and age, ensuring age is a positive integer.
+11. Write a class `Counter` that increases count each time an object is created.
+12. Implement a class `ComplexNumber` to add and subtract two complex numbers.
+13. Create a class `Car` with attributes make, model, and mileage. Add a method to update mileage.
+14. Write a class `ShoppingCart` that allows adding and removing items, and calculating total price.
+15. Implement a class `Bank` that stores multiple accounts and allows transfers between them.
+
+---
+
+### **B. Inheritance & Method Overriding (Q16–Q30)**
+
+16. Create a base class `Shape` with an abstract method `area()`, and subclasses `Square` and `Triangle`.
+17. Implement a class hierarchy for vehicles: `Vehicle` → `Car` → `ElectricCar`.
+18. Write a program where a class `Animal` is inherited by `Dog` and `Cat`, both overriding a `speak()` method.
+19. Create a class `Person` inherited by `Teacher` and `Student`, each with additional attributes.
+20. Write a base class `Employee` and subclasses `Manager` and `Developer` with overridden `calculate_salary()` methods.
+21. Implement a `Publication` class inherited by `Book` and `Magazine`.
+22. Create a base class `Appliance` inherited by `WashingMachine` and `Refrigerator`.
+23. Write a class `Account` inherited by `SavingsAccount` and `CurrentAccount` with different withdrawal rules.
+24. Implement a class `Instrument` inherited by `Guitar` and `Piano`, each overriding `play()`.
+25. Create a class `Shape3D` inherited by `Cube` and `Sphere` with methods for surface area and volume.
+26. Write a class `GameCharacter` inherited by `Warrior` and `Mage`, each with different attack methods.
+27. Implement a class `Employee` with a `display()` method, overridden by `Manager` to show more details.
+28. Create a class `Animal` inherited by `Bird` and `Fish`, both overriding a `move()` method.
+29. Write a class `Document` inherited by `WordDocument` and `PDFDocument` with different `save()` methods.
+30. Implement a `Shape` class inherited by `Rectangle` and `Circle` with overridden `perimeter()` methods.
+
+---
+
+### **C. Polymorphism & Operator Overloading (Q31–Q45)**
+
+31. Implement operator overloading for a `Vector` class to support `+` and `-`.
+32. Create a `Time` class that supports adding two time objects using `+` operator.
+33. Write a `Distance` class to add and compare distances in meters.
+34. Implement a `Matrix` class that supports matrix addition.
+35. Create a `Currency` class that supports conversion between USD and EUR using `*` operator.
+36. Implement `__str__` and `__repr__` for a `Person` class for better printing.
+37. Write a `Polynomial` class that supports addition using `+` operator.
+38. Create a `Score` class to compare scores using `>` and `<` operators.
+39. Implement a `Cart` class where `+` operator adds items.
+40. Write a `Fraction` class to support addition and multiplication.
+41. Implement a `Point` class that supports distance calculation using `-` operator.
+42. Create a `Temperature` class where `>` compares two temperatures.
+43. Write a `Book` class where `+` merges authors’ names into one.
+44. Implement a `Counter` class where `+` merges counts of two objects.
+45. Create a `ListWrapper` class to concatenate lists using `+`.
+
+---
+
+### **D. Encapsulation & Property Decorators (Q46–Q60)**
+
+46. Implement a `BankAccount` class with private balance and getter/setter methods.
+47. Create a `PasswordManager` class with methods to set and verify password.
+48. Write a `Student` class with private marks and property to calculate grade.
+49. Implement a `Product` class with price validation using property decorators.
+50. Create a `Car` class with private speed and a method to accelerate/decelerate.
+51. Write a `Laptop` class with read-only serial number property.
+52. Implement a `User` class with email validation using setters.
+53. Create a `Temperature` class with property to set value in Celsius and get in Fahrenheit.
+54. Write a `Rectangle` class with private width and height, and computed area property.
+55. Implement a `Movie` class with a property to check if it’s a blockbuster based on rating.
+56. Create a `Product` class with private stock quantity and a method to restock.
+57. Write a `Person` class with property for full name (first + last).
+58. Implement a `BankAccount` class that logs every change to balance.
+59. Create a `Book` class where price can only be updated if discount is applied.
+60. Write a `Car` class with property to check if fuel is low.
+
+---
+
+### **E. Abstract Classes & Interfaces (Q61–Q75)**
+
+61. Create an abstract class `Shape` with methods `area()` and `perimeter()`.
+62. Implement an abstract class `Payment` with subclasses `CreditCardPayment` and `PayPalPayment`.
+63. Write an abstract class `Transport` with subclasses `Bus` and `Train`.
+64. Create an abstract class `Appliance` with methods `turn_on()` and `turn_off()`.
+65. Implement an abstract class `Device` with subclasses `Phone` and `Laptop`.
+66. Write an abstract class `Account` with `deposit()` and `withdraw()` methods.
+67. Create an abstract class `Notification` with subclasses `EmailNotification` and `SMSNotification`.
+68. Implement an abstract class `Animal` with `eat()` and `sleep()` methods.
+69. Write an abstract class `Report` with subclasses `PDFReport` and `ExcelReport`.
+70. Create an abstract class `Game` with `start()` and `end()` methods.
+71. Implement an abstract class `Vehicle` with `start_engine()` and `stop_engine()` methods.
+72. Write an abstract class `Media` with subclasses `Audio` and `Video`.
+73. Create an abstract class `Shape3D` with methods for `volume()` and `surface_area()`.
+74. Implement an abstract class `Logger` with subclasses `FileLogger` and `ConsoleLogger`.
+75. Write an abstract class `UserAuthentication` with subclasses `PasswordAuth` and `OTPAuth`.
+
+---
+
+### **F. Real-World OOP Projects (Q76–Q100)**
+
+76. Create a library management system with `Book`, `Member`, and `Library` classes.
+77. Implement a school management system with `Teacher`, `Student`, and `Course` classes.
+78. Create a simple ATM simulation with `Account` and `ATM` classes.
+79. Implement a hotel booking system with `Room`, `Booking`, and `Customer` classes.
+80. Create an inventory system with `Product`, `Category`, and `Inventory` classes.
+81. Implement an online shopping system with `User`, `Cart`, and `Order` classes.
+82. Create a flight booking system with `Flight`, `Passenger`, and `Booking` classes.
+83. Implement a music playlist system with `Song`, `Playlist`, and `Player` classes.
+84. Create a food delivery app with `Restaurant`, `Menu`, and `Order` classes.
+85. Implement a ticket booking system with `Event`, `Ticket`, and `User` classes.
+86. Create a ride-hailing app with `Driver`, `Passenger`, and `Ride` classes.
+87. Implement a bank loan system with `Customer`, `Loan`, and `Payment` classes.
+88. Create a hospital system with `Doctor`, `Patient`, and `Appointment` classes.
+89. Implement a recipe management system with `Recipe`, `Ingredient`, and `Cook` classes.
+90. Create a task management system with `Task`, `Project`, and `User` classes.
+91. Implement a blogging platform with `User`, `Post`, and `Comment` classes.
+92. Create a fitness tracking app with `User`, `Workout`, and `Goal` classes.
+93. Implement a stock portfolio tracker with `Stock`, `Portfolio`, and `Transaction` classes.
+94. Create a quiz system with `Question`, `Quiz`, and `Participant` classes.
+95. Implement a warehouse management system with `Item`, `Shelf`, and `Warehouse` classes.
+96. Create a loan EMI calculator with `Loan` and `Schedule` classes.
+97. Implement a parking lot system with `Vehicle`, `ParkingSpot`, and `ParkingLot` classes.
+98. Create a cinema booking system with `Movie`, `Showtime`, and `Seat` classes.
+99. Implement a subscription service with `Plan`, `User`, and `Subscription` classes.
+100. Create an e-learning platform with `Course`, `Instructor`, and `Student` classes.
+
+---
+
+If you want, I can make **Python code templates** for all 100 of these so you can directly start solving them without writing the boilerplate from scratch. That would make practicing much faster.
+
+Do you want me to prepare those templates next?
