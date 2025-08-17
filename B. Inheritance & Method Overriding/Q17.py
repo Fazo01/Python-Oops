@@ -7,15 +7,14 @@ class Vehicles():
 
 class Car(Vehicles):
   def __init__(self, brand,model):
-    self.brand=brand
+    super().__init__(brand)
     self.model=model
   def drive(self):
     print(f"Car brand: {self.brand}. \nCar model: {self.model}")
 
 class ElectricCar(Car):
   def __init__(self, brand, model,battery):
-    self.brand=brand
-    self.model=model
+    super().__init__(brand,model)
     self.battery=battery
   def drive(self):
     print(f"Car brand: {self.brand}. \nCar model: {self.model}. \nCar battery: {self.battery}.")
