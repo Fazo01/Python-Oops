@@ -1,0 +1,1 @@
+# 23. Write a class `Account` inherited by `SavingsAccount` and `CurrentAccount` with different withdrawal rules.
