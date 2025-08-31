@@ -1,3 +1,4 @@
-# 42. Create a `Temperature` class where `>` compares two temperatures.
-class Temperature:
-  
+# Implement a `Point` class that supports distance calculation using `-` operator.
+class Point:
+  def __init__(self):
+    
