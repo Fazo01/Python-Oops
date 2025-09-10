@@ -26,4 +26,4 @@ class Car:
       print("Insufficient value")
 c1=Car("Toyota",90)
 c1.accelerate(90)
-c1.decelerate(9)  
+c1.decelerate(99) 
