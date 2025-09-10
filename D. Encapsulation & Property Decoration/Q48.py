@@ -30,4 +30,8 @@ class Student:
     else:
       return f"Name: {self.name} Grade: F"
 s1=Student("Muhammad Faizan",90)
+
+print(s1.grade())
+s1.marks=50
+print(s1.marks)
 print(s1.grade())
