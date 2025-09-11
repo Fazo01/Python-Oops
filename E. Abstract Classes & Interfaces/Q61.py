@@ -1,10 +1,13 @@
 # 61. Create an abstract class `Shape` with methods `area()` and `perimeter()`.
 from abc import ABC,abstractmethod
 class Shape(ABC):
+  @abstractmethod
   def area(self):
     pass
+  @abstractmethod
   def parimeter(self):
     pass
+  
 class Rectangle(Shape):
   def __init__(self,width,length):
     self.width=width
